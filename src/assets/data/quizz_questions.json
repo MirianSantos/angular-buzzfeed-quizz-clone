@@ -1,55 +1,70 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Faça o teste e descubra se você tem boas ideias.",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Você é mais:",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Criativo", "alias":"A"},
+        {"id": 2, "name":"Prático", "alias":"B"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Normalmente, quando você tem que fazer um trabalho quem tem as principais ideias ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Você", "alias":"A"},
+        {"id": 2, "name":"Outras pessoas", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Você geralmente tem ideias quando:",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Está sozinho(a)", "alias":"A"},
+        {"id": 2, "name":"Está com várias pessoas", "alias":"B"},
+        {"id": 3, "name":"Em qualquer situação", "alias":"C"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Você se considera uma pessoa inteligente ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Mais ou menos", "alias":"B"},
+        {"id": 2, "name":"Nem tanto", "alias":"C"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Você é uma pessoa:",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Otimista", "alias":"A"},
+        {"id": 2, "name":"Realista", "alias":"B"},
+        {"id": 2, "name":"Pessimista", "alias":"C"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Você prefere:",
+      "options":[
+        {"id": 1, "name":"O livro", "alias":"A"},
+        {"id": 2, "name":"O filme", "alias":"B"},
+        {"id": 2, "name":"Nenhum dos dois", "alias":"C"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Você costuma tomar suas decisões:",
+      "options":[
+        {"id": 1, "name":"Pensando muito", "alias":"A"},
+        {"id": 2, "name":"De acordo com a minha intuição", "alias":"B"}
       ]
     }
+
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Sim. Você é uma pessoa que tem um raciocínio extremamente rápido e que está sempre com a cabeça cheia de novas ideias criativas para serem colocadas em prática.",
+    "B": "Nem tanto. Você é uma pessoa que tem várias ótimas ideias, mas que às vezes por insegurança acaba não colocando em prática."
   }
 }
